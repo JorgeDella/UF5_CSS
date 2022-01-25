@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.menu {
+    background-color: darkgreen;
+}
+.submenu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+.submenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.submenu a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+a:hover {
+    color: goldenrod;
+}
+.submenu li ul {
+    display: flex;
+    flex-direction: column;
+}
+.submenu ul li ul {
+    position: absolute;
+    display: none;
+    background-color: darkgreen;
+}
+.submenu ul li:hover > ul {
+    display: block;
+}

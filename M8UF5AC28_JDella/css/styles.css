@@ -1,0 +1,30 @@
+.caixes {
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  border: 2mm solid green;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.border .solid {
+  border-style: solid;
+  border-width: 5px;
+  padding: 15px;
+}
+.border .dash {
+  border-style: dashed;
+  border-width: 2,5px;
+  padding: 15px;
+}
+.border #verd {
+  border-color: green;
+}
+.border #blau {
+  border-color: blue;
+}
+.border #roig {
+  border-color: red;
+}

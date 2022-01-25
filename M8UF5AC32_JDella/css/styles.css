@@ -1,0 +1,90 @@
+body {
+    background-image: url(../img/fons.jpg);
+    justify-content: center;
+    justify-items: center;
+}
+header {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    border-radius: 70%;
+    font-size: 15px;
+    color: white;
+}
+#menu a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 90%;
+}
+.negre {
+    background-color: black;
+}
+.blau {
+    background-color: skyblue;
+}
+#text {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    color: dimgray;
+    font-size: 75px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.opcions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    max-width: 100%;
+    width: 100%;
+    height: 225px;
+}
+.opcions div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0px;
+    color: white;
+}
+
+.opcions div img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+.footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.subfooter {
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}

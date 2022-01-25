@@ -1,0 +1,30 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green; text-decoration: none;
+}
+
+a:active {
+    color: lime;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    background-color: yellow;
+}
+
+h1 {
+    color: orange; text-align: center; font-size: 20px;
+}
+
+li {
+    font-size: 15px;
+}

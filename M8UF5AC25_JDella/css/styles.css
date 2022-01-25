@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 20px;
+}
+header {
+    background-color: red;
+    padding: 20px;
+    height: 20%;
+}
+aside {
+    background-color: green;
+    width: 20%;
+    height: 400px;
+    display: flex;
+    float: left;
+}
+nav {
+    background-color: lightskyblue;
+    height: 100px;
+
+}
+article {
+    background-color: yellow;
+    height: 300px;
+
+}
+footer {
+    background-color: purple;
+    padding: 20px;
+    height: 20%;
+}

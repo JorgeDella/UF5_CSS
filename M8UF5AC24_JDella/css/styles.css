@@ -1,0 +1,30 @@
+.dies {
+    background-color: blue;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    list-style: none;
+    margin: 5px 5px;
+}
+.dies:hover {
+    border-style: solid;
+    border-color: red;
+}
+.finde {
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    list-style: none;
+    margin: 5px 5px;
+}
+.finde:hover {
+    display: flex;
+    flex-flow: wrap;
+    background-color: gray;
+    color: black;
+    border-style: solid;
+    border-color: red;
+}

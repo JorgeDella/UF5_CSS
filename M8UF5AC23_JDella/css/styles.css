@@ -1,0 +1,66 @@
+table {
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-image: url(../img/IMAGEN.png);
+    background-position: center;
+}
+
+body p:hover {
+    background-color: greenyellow;
+}
+
+.p1 {
+    background-color: lightblue;
+}
+
+.p2 {
+    background-color: lightskyblue;
+}
+
+.p3 {
+    background-color: deepskyblue;
+}
+
+.p4 {
+    background-color: dodgerblue;
+}
+
+.p5 {
+    background-color: royalblue;
+}
+
+.p6 {
+    background-color: blue;
+}
+
+.p7 {
+    background-color: mediumblue;
+}
+
+.p8 {
+    background-color: darkblue;
+}
+
+.p9 {
+    background-color: navy;
+}
+
+.p10 {
+    background-color: midnightblue;
+}
+
+p > #paraula1, #paraula2, #paraula3 {
+    text-decoration: underline;
+}
+
+#paraula4, #paraula5, #paraula6 {
+    text-decoration: overline;
+}
+
+#paraula7, #paraula8, #paraula9 {
+    font-weight: bold;
+}
